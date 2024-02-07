@@ -3,8 +3,8 @@
 
 *** Variables ***
 ${NOME}            Maria
-${IDADE}           ${22}      
-${CONDICAO}        deficiente físico
+${IDADE}           ${22}
+${CONDICAO}        
 
 *** Test Cases ***
 Exercício 15
@@ -15,6 +15,8 @@ Exercício 15
         Log To Console    \nOlá ${NOME} sua fila é Preferêncial!
     ELSE IF    "${CONDICAO}" == "gestante"
         Log To Console    \nOlá ${NOME} sua fila é Preferêncial!
+    ELSE IF    "${CONDICAO}" == ""
+        Log To Console    \nOlá ${NOME}, sua fila é Comum!
     ELSE
         Log To Console    \nOlá ${NOME} sua fila é Comum!
     END
