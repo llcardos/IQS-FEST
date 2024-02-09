@@ -70,7 +70,7 @@ teste logout de colaborador
     logout
     Verificar se fez logout
 
-05teste logout de gestor
+teste logout de gestor
     realizar login com ${GESTOR_VALIDO} e ${SENHA_VALIDO}
     logout
     Verificar se fez logout
