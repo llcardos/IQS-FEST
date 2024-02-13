@@ -7,7 +7,7 @@ Test Setup    Run Keywords
 Test Teardown    Close Browser
 
 *** Variables ***
-${URL_LOGIN}    http://sistemas.t2mlab.com:3006/home
+${URL_LOGIN}    http://sistemas.t2mlab.com:3006
 
 ${COLABORADOR_VALIDO}    BNViana
 ${GESTOR_VALIDO}    Alan
